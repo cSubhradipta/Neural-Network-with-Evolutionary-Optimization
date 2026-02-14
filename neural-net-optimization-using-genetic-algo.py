@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_csv("sample_data/weather_classification_data.csv")
+df = pd.read_csv("weather_classification_data.csv")
 
 print("Initial Shape:", df.shape)
 print("\nMissing values:\n", df.isnull().sum())
